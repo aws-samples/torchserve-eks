@@ -1,4 +1,4 @@
-# Running TorchServe on Amazon Amazon Elastic Kubernetes Service
+# Running TorchServe on Amazon Elastic Kubernetes Service
 
 ![alt text](/img/TorchServeOnAWS.png)
 
