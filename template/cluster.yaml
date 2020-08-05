@@ -1,0 +1,15 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: "your_cluster_name"
+  region: "your_cluster_region"
+  
+nodeGroups:
+  - name: ng-1
+    instanceType: g4dn.xlarge
+    desiredCapacity: 1
+
+cloudWatch:
+  clusterLogging:
+    enableTypes: ["audit", "authenticator", "api", "controllerManager", "scheduler"]

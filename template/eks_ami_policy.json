@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:*"
+            ],
+            "Resource": [
+                "arn:aws:iam::{$ACCOUNT}:instance-profile/eksctl-*",
+                "arn:aws:iam::{$ACCOUNT}:role/eksctl-*",
+                "arn:aws:iam::{$ACCOUNT}:oidc-provider/oidc*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "aws-marketplace:*",
+                "ecs:*",
+                "ec2:*",
+                "cloudformation:*",
+                "eks:*",
+                "ecr:*",
+                "ssm:GetParameter",
+                "autoscaling:*",
+                "logs:*",
+                "elasticloadbalancing:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
