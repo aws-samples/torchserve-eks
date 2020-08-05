@@ -1,6 +1,6 @@
 # Running TorchServe on Amazon Amazon Elastic Kubernets Service
 
-![alt text](https://github.com/smart-patrol/pytorch-serve-eks/blob/master/img/TorchServeOnAWS.png)
+![alt text](/img/TorchServeOnAWS.png)
 
 [TorchServe](https://github.com/pytorch/serve) makes it easy to deploy and manage PyTorch models at scale in production environments. TorchServe is built and maintained by AWS in collaboration with Facebook and is available as part of the PyTorch open-source project. 
 
