@@ -17,9 +17,9 @@ export PT_SERVE_NAME=<Name of TorchServe in the EKS>
 ## Create EKS manifest files
 
 ```
-git clone https://github.com/smart-patrol/pytorch-serve-eks
+git clone https://github.com/aws-samples/torchserve-eks
 
-cd pytorch-serve-eks
+cd torchserve-eks
 
 ./pt_serve_util.sh
 ```
