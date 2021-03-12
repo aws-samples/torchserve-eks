@@ -1,5 +1,7 @@
 # Running TorchServe on Amazon Elastic Kubernetes Service
 
+This repo contains the code for the blog post: [Running TorchServe on Amazon Elastic Kubernetes Service](https://aws.amazon.com/blogs/opensource/running-torchserve-on-amazon-elastic-kubernetes-service/) published to the AWS Open Source blog.
+
 ![alt text](/img/TorchServeOnAWS.png)
 
 [TorchServe](https://github.com/pytorch/serve) makes it easy to deploy and manage PyTorch models at scale in production environments. TorchServe is built and maintained by AWS in collaboration with Facebook and is available as part of the PyTorch open-source project. 
